@@ -16,14 +16,11 @@ jobs:
   
         - name: Generate Changelog
           run: |
-            # Install git-chglog
-            curl -sSL https://install.git.chglog.io | sh
-            
-            # Get the last tag
-            last_tag=$(git describe --tags $(git rev-list --tags --max-count=1))
-            
+            # Get the last git tag
+            last_tag=$(git describe --tags --abbrev=0)
+  
             # Generate changelog since the last tag
-            git-chglog --output CHANGELOG.md --next-tag $last_tag
+            git log --pretty=format:"%h - %s (%an)" $last_tag..HEAD > CHANGELOG.md
   
         - name: Create Release
           id: create_release
