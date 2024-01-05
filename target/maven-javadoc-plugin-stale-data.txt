@@ -1,0 +1,51 @@
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/src/main/java;C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'projet_tfsd 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'projet_tfsd 1.0-SNAPSHOT API'
+'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/src/main/java/game/GameInit.java'
+'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/src/main/java/game/Minesweeper.java'
+'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/src/main/java/game/package-info.java'
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\src\main\java = 1704451736642
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\generated-sources\annotations = 1704459794190
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\allclasses-index.html = 1704459800993
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\allpackages-index.html = 1704459800993
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\copy.svg = 1704459801073
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\element-list = 1704459800894
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\help-doc.html = 1704459801057
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\index-all.html = 1704459801033
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\index.html = 1704459801041
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\javadoc.bat = 1704459799230
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\link.svg = 1704459801081
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\member-search-index.js = 1704459801009
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\module-search-index.js = 1704459801009
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\overview-tree.html = 1704459800973
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\package-search-index.js = 1704459801009
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\script.js = 1704459801073
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\search-page.js = 1704459801089
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\search.html = 1704459801041
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\search.js = 1704459801081
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\stylesheet.css = 1704459801065
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\tag-search-index.js = 1704459801009
+C:\Users\noahm\Desktop\Cours\Majeur_Info\projet_tfsd\target\apidocs\type-search-index.js = 1704459801009

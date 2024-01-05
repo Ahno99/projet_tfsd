@@ -1,0 +1,24 @@
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/src/main/java;C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'projet_tfsd 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/noahm/Desktop/Cours/Majeur_Info/projet_tfsd/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'projet_tfsd 1.0-SNAPSHOT API'

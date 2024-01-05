@@ -1,0 +1,27 @@
+Minesweeper
+The Minesweeper project is a Java-based implementation of the classic Minesweeper game. It provides a graphical user interface where users can play the game by revealing cells and avoiding mines.
+
+Usage
+
+Prerequisites
+Java Runtime Environment (JRE) installed
+
+Getting Started
+Clone the repository.
+Compile the Java files using javac Minesweeper.java.
+Run the game with java Minesweeper.
+Upon running the game, you will be prompted to enter the grid size and difficulty level (E - Easy, M - Medium, H - Hard). The game grid will then be initialized, and the graphical user interface will start.
+
+Features
+Customizable grid size and difficulty levels
+Interactive graphical user interface
+Cell clicking to reveal contents
+Contributing
+If you want to contribute to the project, you can:
+
+Fork the repository.
+Make your changes and create a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
