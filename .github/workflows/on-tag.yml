@@ -5,7 +5,7 @@ on:
         - '*' # Push events to matching v*, i.e. v1.0, v20.15.10
   
 name: Create Release
-
+  
 jobs:
     build:
       name: Create Release
@@ -13,6 +13,18 @@ jobs:
       steps:
         - name: Checkout code
           uses: actions/checkout@v2
+  
+        - name: Generate Changelog
+          run: |
+            # Install git-chglog
+            curl -sSL https://install.git.chglog.io | sh
+            
+            # Get the last tag
+            last_tag=$(git describe --tags $(git rev-list --tags --max-count=1))
+            
+            # Generate changelog since the last tag
+            git-chglog --output CHANGELOG.md --next-tag $last_tag
+  
         - name: Create Release
           id: create_release
           uses: actions/create-release@v1
@@ -21,3 +33,6 @@ jobs:
           with:
             tag_name: ${{ github.ref }}
             release_name: Release ${{ github.ref }}
+            body: |
+              $(cat CHANGELOG.md) # Include the generated changelog in the release body
+  
