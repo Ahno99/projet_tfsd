@@ -34,6 +34,5 @@ jobs:
           with:
             tag_name: ${{ github.ref }}
             release_name: Release ${{ github.ref }}
-            
             body: ${{ steps.read_changelog.outputs.changelog_content }}
   
